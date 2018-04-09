@@ -1,0 +1,16 @@
+{
+  "name": "neo-tokens",
+  "version": "1.0.0",
+  "description": "A list of NEP5 tokens for sending from NEO wallets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cityofzion/neon-js": "^3.6.1",
+    "fs": "^0.0.1-security",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
