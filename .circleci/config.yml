@@ -51,3 +51,9 @@ workflows:
                  - master
      jobs:
        - build
+
+deployment:
+  staging:
+    branch: master
+    commands:
+      - ./scripts/deploy-circle.sh build
