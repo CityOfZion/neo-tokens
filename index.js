@@ -44,7 +44,7 @@ api.loadBalance(api.getRPCEndpointFrom, { net }).then(endpoint => {
         })
       })
       Promise.all(promises).then(() => {
-        fs.writeFile('tokenList.json', JSON.stringify(tokenData))
+        fs.writeFile('tokenList.json', JSON.stringify(tokenData, null, 4))
       })
     })
 })
