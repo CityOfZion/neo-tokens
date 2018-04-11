@@ -3,6 +3,8 @@ const fs = require('fs')
 const api = require('@cityofzion/neon-js').api
 
 const tokenDataUrl = 'http://notifications.neeeo.org/v1/tokens'
+const baseImageUrl =
+	'https://raw.githubusercontent.com/neonexchange/neo-tokens/master/assets'
 const net = 'MainNet'
 const NETWORK_ID = {
 	MAINNET: '1'
@@ -27,9 +29,9 @@ api.loadBalance(api.getRPCEndpointFrom, { net }).then(endpoint => {
 					let image = ''
 					const formattedSymbol = symbol.toLowerCase()
 					if (fs.existsSync(`./assets/svg/${formattedSymbol}.svg`)) {
-						image = `./assets/svg/${formattedSymbol}.svg`
+						image = `${baseImageUrl}/svg/${formattedSymbol}.svg`
 					} else if (fs.existsSync(`./assets/png/${formattedSymbol}.png`)) {
-						image = `./assets/png/${formattedSymbol}.png`
+						image = `${baseImageUrl}/png/${formattedSymbol}.png`
 					}
 					if (!blackList[symbol] && blackList[symbol] !== scriptHash) {
 						tokenData[symbol] = {

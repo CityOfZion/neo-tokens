@@ -43,13 +43,12 @@ jobs:
           name: Push to GitHub
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              git checkout -b test-branch
               git pull origin master
               git config user.email "${GH_EMAIL}"
               git config user.name "${GH_NAME}"
               git add .
-              git commit -m "Deploy to GitHub for neo tokens repo"
-              git push origin test-branch
+              git commit -m "run script and deploy build version"
+              git push origin master
             fi
             echo "done."
 
