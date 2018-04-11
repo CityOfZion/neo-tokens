@@ -42,6 +42,9 @@ jobs:
       - run:
           name: Push to GitHub
           command: |
+            echo "this is the branch"
+            echo "${CIRCLE_BRANCH}"
+            git checkout -b "${CIRCLE_BRANCH}"
             git pull origin master
             git config user.email "${GH_EMAIL}"
             git config user.name "${GH_NAME}"
