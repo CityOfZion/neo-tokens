@@ -2,4 +2,6 @@
 
 A list of NEP5 tokens on MainNet. This is useful for NEO wallets that would like to get all the scripthashes and relevant data for each token.
 
-We are looking for high svg (ideally) or png files for each NEP5 token. Please upload assets to this repo under either assets/svg or assets/png, run `yarn` and then `yarn start` and submit a PR with the updated tokenList.json file.
+Step 1: wait until the NEP5 token is listed here (http://notifications.neeeo.org/v1/tokens)
+Step 2: upload NEP5 token image to assets/svg or assets/png
+Step 3: submit PR (tokenList.json will automatically be updated through CircleCI)
