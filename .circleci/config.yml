@@ -43,9 +43,8 @@ jobs:
           name: Push to GitHub
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              git checkout master
-              git pull --rebase origin master
               git checkout -b test-branch
+              git pull origin master
               git config user.email "${GH_EMAIL}"
               git config user.name "${GH_NAME}"
               git add .
