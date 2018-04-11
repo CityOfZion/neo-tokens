@@ -12,14 +12,6 @@ pwd
 
 remote=$(git config remote.origin.url)
 
-siteSource="$1"
-
-if [ ! -d "$siteSource" ]
-then
-    echo "Usage: $0 <site source dir>"
-    exit 1
-fi
-
 # make a directory to put the circle-branch branch
 mkdir circle-branch
 cd circle-branch
@@ -40,15 +32,14 @@ else
     git checkout --orphan circle-branch
 fi
 
-# copy over or recompile the new site
-cp -a "../${siteSource}/." .
+cp -a "../." .
 
 # stage any changes and new files
 git add -A
 # now commit, ignoring branch gh-pages doesn't seem to work, so trying skip
 git commit --allow-empty -m "Deploy to GitHub for neo tokens repo"
 # and push, but send any output to /dev/null to hide anything sensitive
-git push --force --quiet origin master
+git push --force --quiet origin circle-branch
 # go back to where we started and remove the gh-pages git repo we made and used
 # for deployment
 cd ..

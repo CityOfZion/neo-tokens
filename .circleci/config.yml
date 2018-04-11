@@ -4,7 +4,7 @@
 #
 version: 2
 jobs:
-  build:
+  build-and-deploy:
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
@@ -17,6 +17,10 @@ jobs:
     working_directory: ~/repo
 
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "08:96:62:f5:99:e0:59:b7:48:6f:76:ac:61:26:38:90"
+
       - checkout
 
       # Download and cache dependencies
@@ -35,12 +39,26 @@ jobs:
 
       # run the file!
       - run: yarn start
+      - run:
+          name: Push to GitHub
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git checkout master
+              git pull --rebase origin master
+              git checkout -b test-branch
+              git config user.email "${GH_EMAIL}"
+              git config user.name "${GH_NAME}"
+              git add .
+              git commit -m "Deploy to GitHub for neo tokens repo"
+              git push origin test-branch
+            fi
+            echo "done."
 
 workflows:
    version: 2
    commit:
      jobs:
-       - build
+       - build-and-deploy
    nightly:
      triggers:
        - schedule:
@@ -50,10 +68,4 @@ workflows:
                only:
                  - master
      jobs:
-       - build
-
-deployment:
-  staging:
-    branch: master
-    commands:
-      - ./scripts/deploy-circle.sh build
+       - build-and-deploy
