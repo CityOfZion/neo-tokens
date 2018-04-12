@@ -96,7 +96,7 @@ jobs:
             git config user.email "${GH_EMAIL}"
             git config user.name "${GH_NAME}"
             git add .
-            git commit -m "[daily automated commit message] run script and deploy build version"
+            git commit -m "[automated commit message] run script and deploy build version"
             git push origin master
 
 workflows:
