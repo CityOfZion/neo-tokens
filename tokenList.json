@@ -1,18 +1,4 @@
 {
-  "APH": {
-    "symbol": "APH",
-    "companyName": "Aphelion",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Aphelion",
-        "hash": "a0777c3ce2b169d4a23bcba4565e3225a0122d95",
-        "decimals": 8,
-        "totalSupply": 242817675
-      }
-    },
-    "image": ""
-  },
   "TKY": {
     "symbol": "TKY",
     "companyName": "THEKEY Token",
@@ -27,132 +13,6 @@
     },
     "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/png/tky.png"
   },
-  "RPX": {
-    "symbol": "RPX",
-    "companyName": "Red Pulse Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Red Pulse Token",
-        "hash": "ecc6b20d3ccac1ee9ef109af5a7cdb85706b1df9",
-        "decimals": 8,
-        "totalSupply": 1358371250
-      }
-    },
-    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/rpx.svg"
-  },
-  "WWB": {
-    "symbol": "WWB",
-    "companyName": "Wowbit",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Wowbit",
-        "hash": "40bb36a54bf28872b6ffdfa7fbc6480900e58448",
-        "decimals": 8,
-        "totalSupply": 0
-      }
-    },
-    "image": ""
-  },
-  "DBC": {
-    "symbol": "DBC",
-    "companyName": "DeepBrain Coin",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "DeepBrain Coin",
-        "hash": "b951ecbbc5fe37a9c280a76cb0ce0014827294cf",
-        "decimals": 8,
-        "totalSupply": 10000000000
-      }
-    },
-    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/dbc.svg"
-  },
-  "TNC": {
-    "symbol": "TNC",
-    "companyName": "Trinity Network Credit",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Trinity Network Credit",
-        "hash": "08e8c4400f1af2c20c28e0018f29535eb85d15b6",
-        "decimals": 8,
-        "totalSupply": 1000000000
-      }
-    },
-    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/tnc.svg"
-  },
-  "SWH": {
-    "symbol": "SWH",
-    "companyName": "Switcheo",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Switcheo",
-        "hash": "78e6d16b914fe15bc16150aeb11d0c2a8e532bdd",
-        "decimals": 8,
-        "totalSupply": 1000000000
-      }
-    },
-    "image": ""
-  },
-  "ONT": {
-    "symbol": "ONT",
-    "companyName": "Ontology Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Ontology Token",
-        "hash": "ceab719b8baa2310f232ee0d277c061704541cfb",
-        "decimals": 8,
-        "totalSupply": 1000000000
-      }
-    },
-    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/png/ont.png"
-  },
-  "EXT": {
-    "symbol": "EXT",
-    "companyName": "Experience Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Experience Token",
-        "hash": "e8f98440ad0d7a6e76d84fb1c3d3f8a16e162e97",
-        "decimals": 8,
-        "totalSupply": 10000000000
-      }
-    },
-    "image": ""
-  },
-  "NRVE": {
-    "symbol": "NRVE",
-    "companyName": "Narrative Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Narrative Token",
-        "hash": "a721d5893480260bd28ca1f395f2c465d0b5b1c2",
-        "decimals": 8,
-        "totalSupply": 33682532
-      }
-    },
-    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/png/nrve.png"
-  },
-  "OBT": {
-    "symbol": "OBT",
-    "companyName": "Orbis",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Orbis",
-        "hash": "23501e5fef0f67ec476406c556e91992323a0357",
-        "decimals": 8,
-        "totalSupply": 1467921138923311400
-      }
-    },
-    "image": ""
-  },
   "CPX": {
     "symbol": "CPX",
     "companyName": "CPX Token",
@@ -163,76 +23,6 @@
         "hash": "45d493a6f73fa5f404244a5fb8472fc014ca5885",
         "decimals": 8,
         "totalSupply": 676989090
-      }
-    },
-    "image": ""
-  },
-  "THOR": {
-    "symbol": "THOR",
-    "companyName": "Thor Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Thor Token",
-        "hash": "67a5086bac196b67d5fd20745b0dc9db4d2930ed",
-        "decimals": 8,
-        "totalSupply": 57068773.82227148
-      }
-    },
-    "image": ""
-  },
-  "QLC": {
-    "symbol": "QLC",
-    "companyName": "Qlink Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Qlink Token",
-        "hash": "0d821bd7b6d53f5c2b40e217c6defc8bbe896cf5",
-        "decimals": 8,
-        "totalSupply": 600000000
-      }
-    },
-    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
-  },
-  "EDS": {
-    "symbol": "EDS",
-    "companyName": "Endorsit Shares",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Endorsit Shares",
-        "hash": "81c089ab996fc89c468a26c0a88d23ae2f34b5c0",
-        "decimals": 8,
-        "totalSupply": 100000000000
-      }
-    },
-    "image": ""
-  },
-  "EFX": {
-    "symbol": "EFX",
-    "companyName": "Effect.AI Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Effect.AI Token",
-        "hash": "acbc532904b6b51b5ea6d19b803d78af70e7e6f9",
-        "decimals": 8,
-        "totalSupply": 650000000
-      }
-    },
-    "image": ""
-  },
-  "PKC": {
-    "symbol": "PKC",
-    "companyName": "Pikcio Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Pikcio Token",
-        "hash": "af7c7328eee5a275a3bcaee2bf0cf662b5e739be",
-        "decimals": 8,
-        "totalSupply": 83927273
       }
     },
     "image": ""
@@ -251,6 +41,118 @@
     },
     "image": ""
   },
+  "LRN": {
+    "symbol": "LRN",
+    "companyName": "Loopring Neo Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Loopring Neo Token",
+        "hash": "06fa8be9b6609d963e8fc63977b9f8dc5f10895f",
+        "decimals": 8,
+        "totalSupply": 139507605
+      }
+    },
+    "image": ""
+  },
+  "WWB": {
+    "symbol": "WWB",
+    "companyName": "Wowbit",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Wowbit",
+        "hash": "40bb36a54bf28872b6ffdfa7fbc6480900e58448",
+        "decimals": 8,
+        "totalSupply": 0
+      }
+    },
+    "image": ""
+  },
+  "ONT": {
+    "symbol": "ONT",
+    "companyName": "Ontology Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Ontology Token",
+        "hash": "ceab719b8baa2310f232ee0d277c061704541cfb",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    },
+    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/png/ont.png"
+  },
+  "SWH": {
+    "symbol": "SWH",
+    "companyName": "Switcheo",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Switcheo",
+        "hash": "78e6d16b914fe15bc16150aeb11d0c2a8e532bdd",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    },
+    "image": ""
+  },
+  "PKC": {
+    "symbol": "PKC",
+    "companyName": "Pikcio Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Pikcio Token",
+        "hash": "af7c7328eee5a275a3bcaee2bf0cf662b5e739be",
+        "decimals": 8,
+        "totalSupply": 83927273
+      }
+    },
+    "image": ""
+  },
+  "THOR": {
+    "symbol": "THOR",
+    "companyName": "Thor Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Thor Token",
+        "hash": "67a5086bac196b67d5fd20745b0dc9db4d2930ed",
+        "decimals": 8,
+        "totalSupply": 57068773.82227148
+      }
+    },
+    "image": ""
+  },
+  "OBT": {
+    "symbol": "OBT",
+    "companyName": "Orbis",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Orbis",
+        "hash": "0e86a40588f715fcaf7acd1812d50af478e6e917",
+        "decimals": 8,
+        "totalSupply": 68960125.99999999
+      }
+    },
+    "image": ""
+  },
+  "TNC": {
+    "symbol": "TNC",
+    "companyName": "Trinity Network Credit",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Trinity Network Credit",
+        "hash": "08e8c4400f1af2c20c28e0018f29535eb85d15b6",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    },
+    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/tnc.svg"
+  },
   "CGE": {
     "symbol": "CGE",
     "companyName": "Concierge Token",
@@ -265,44 +167,30 @@
     },
     "image": ""
   },
-  "RHT": {
-    "symbol": "RHT",
-    "companyName": "Redeemable HashPuppy Token",
+  "APH": {
+    "symbol": "APH",
+    "companyName": "Aphelion",
     "type": "NEP5",
     "networks": {
       "1": {
-        "name": "Redeemable HashPuppy Token",
-        "hash": "2328008e6f6c7bd157a342e789389eb034d9cbc4",
-        "decimals": 0,
-        "totalSupply": 60000
+        "name": "Aphelion",
+        "hash": "6d36b38af912ca107f55a5daedc650054f7e4f75",
+        "decimals": 8,
+        "totalSupply": 240000000
       }
     },
     "image": ""
   },
-  "IAM": {
-    "symbol": "IAM",
-    "companyName": "Bridge Token",
+  "EDS": {
+    "symbol": "EDS",
+    "companyName": "Endorsit Shares",
     "type": "NEP5",
     "networks": {
       "1": {
-        "name": "Bridge Token",
-        "hash": "891daf0e1750a1031ebe23030828ad7781d874d6",
+        "name": "Endorsit Shares",
+        "hash": "81c089ab996fc89c468a26c0a88d23ae2f34b5c0",
         "decimals": 8,
-        "totalSupply": 708097040
-      }
-    },
-    "image": ""
-  },
-  "ACAT": {
-    "symbol": "ACAT",
-    "companyName": "ACAT Token",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "ACAT Token",
-        "hash": "7f86d61ff377f1b12e589a5907152b57e2ad9a7a",
-        "decimals": 8,
-        "totalSupply": 6250000000
+        "totalSupply": 100000000000
       }
     },
     "image": ""
@@ -321,6 +209,62 @@
     },
     "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/png/zpt.png"
   },
+  "IAM": {
+    "symbol": "IAM",
+    "companyName": "Bridge Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Bridge Token",
+        "hash": "891daf0e1750a1031ebe23030828ad7781d874d6",
+        "decimals": 8,
+        "totalSupply": 708097040
+      }
+    },
+    "image": ""
+  },
+  "RHT": {
+    "symbol": "RHT",
+    "companyName": "Redeemable HashPuppy Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Redeemable HashPuppy Token",
+        "hash": "2328008e6f6c7bd157a342e789389eb034d9cbc4",
+        "decimals": 0,
+        "totalSupply": 60000
+      }
+    },
+    "image": ""
+  },
+  "QLC": {
+    "symbol": "QLC",
+    "companyName": "Qlink Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Qlink Token",
+        "hash": "0d821bd7b6d53f5c2b40e217c6defc8bbe896cf5",
+        "decimals": 8,
+        "totalSupply": 600000000
+      }
+    },
+    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
+  },
+  "EXT": {
+    "symbol": "EXT",
+    "companyName": "Experience Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Experience Token",
+        "hash": "e8f98440ad0d7a6e76d84fb1c3d3f8a16e162e97",
+        "decimals": 8,
+        "totalSupply": 10000000000
+      }
+    },
+    "image": ""
+  },
   "GALA": {
     "symbol": "GALA",
     "companyName": "Galaxy Token",
@@ -335,16 +279,72 @@
     },
     "image": ""
   },
-  "LRN": {
-    "symbol": "LRN",
-    "companyName": "Loopring Neo Token",
+  "RPX": {
+    "symbol": "RPX",
+    "companyName": "Red Pulse Token",
     "type": "NEP5",
     "networks": {
       "1": {
-        "name": "Loopring Neo Token",
-        "hash": "06fa8be9b6609d963e8fc63977b9f8dc5f10895f",
+        "name": "Red Pulse Token",
+        "hash": "ecc6b20d3ccac1ee9ef109af5a7cdb85706b1df9",
         "decimals": 8,
-        "totalSupply": 139507605
+        "totalSupply": 1358371250
+      }
+    },
+    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/rpx.svg"
+  },
+  "NRVE": {
+    "symbol": "NRVE",
+    "companyName": "Narrative Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Narrative Token",
+        "hash": "a721d5893480260bd28ca1f395f2c465d0b5b1c2",
+        "decimals": 8,
+        "totalSupply": 33682532
+      }
+    },
+    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/png/nrve.png"
+  },
+  "DBC": {
+    "symbol": "DBC",
+    "companyName": "DeepBrain Coin",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "DeepBrain Coin",
+        "hash": "b951ecbbc5fe37a9c280a76cb0ce0014827294cf",
+        "decimals": 8,
+        "totalSupply": 10000000000
+      }
+    },
+    "image": "https://raw.githubusercontent.com/CityOfZion/neo-tokens/master/assets/svg/dbc.svg"
+  },
+  "ACAT": {
+    "symbol": "ACAT",
+    "companyName": "ACAT Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "ACAT Token",
+        "hash": "7f86d61ff377f1b12e589a5907152b57e2ad9a7a",
+        "decimals": 8,
+        "totalSupply": 6250000000
+      }
+    },
+    "image": ""
+  },
+  "EFX": {
+    "symbol": "EFX",
+    "companyName": "Effect.AI Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Effect.AI Token",
+        "hash": "acbc532904b6b51b5ea6d19b803d78af70e7e6f9",
+        "decimals": 8,
+        "totalSupply": 650000000
       }
     },
     "image": ""
