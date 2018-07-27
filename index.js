@@ -14,7 +14,8 @@ let promises
 const tokenData = {}
 
 const blackList = {
-	NRV: '2e25d2127e0240c6deaf35394702feb236d4d7fc'
+	NRV: '2e25d2127e0240c6deaf35394702feb236d4d7fc',
+	ONT: '442e7964f6486005235e87e082f56cd52aa663b8'
 }
 
 api.loadBalance(api.getRPCEndpointFrom, { net }).then(endpoint => {
