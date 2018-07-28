@@ -76,12 +76,13 @@ async function getTokenData(net) {
 	return tokenData
 }
 
-function writeTokenData(filename, tokenData) {
+async function writeTokenData(filename) {
+	const tokenData = await getTokenData('MainNet')
 	fs.writeFileSync(filename, JSON.stringify(tokenData, null, 2))
 }
 
 try {
-	writeTokenData('tokenList.json', getTokenData('MainNet'))
+	writeTokenData('tokenList.json')
 } catch (err) {
 	// eslint-disable-next-line no-console
 	console.error(err)
