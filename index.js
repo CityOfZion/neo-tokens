@@ -1,60 +1,89 @@
 const fetch = require('isomorphic-fetch')
 const fs = require('fs')
-const api = require('@cityofzion/neon-js').api
+const { api } = require('@cityofzion/neon-js')
 
 const tokenDataUrl = 'http://notifications.neeeo.org/v1/tokens'
-const baseImageUrl = `https://raw.githubusercontent.com/${
-	process.env.PROJECT_NAME
-}/neo-tokens/master/assets`
-const net = 'MainNet'
+const baseImageUrl = `https://rawgit.com/${process.env.PROJECT_NAME}/neo-tokens/master/assets`
+
 const NETWORK_ID = {
 	MAINNET: '1'
 }
-let promises
-const tokenData = {}
 
-const blackList = {
+const BLACKLIST = {
 	NRV: '2e25d2127e0240c6deaf35394702feb236d4d7fc',
 	ONT: '442e7964f6486005235e87e082f56cd52aa663b8'
 }
 
-api.loadBalance(api.getRPCEndpointFrom, { net }).then(endpoint => {
-	fetch(tokenDataUrl)
-		.then(data => data.json())
-		.then(response => {
-			promises = response.results.map(({ token }) => {
-				const { decimals, symbol, script_hash, name } = token
-				const scriptHash = script_hash.startsWith('0x')
-					? script_hash.slice(2)
-					: script_hash
-				return api.nep5.getToken(endpoint, scriptHash).then(tokenInfo => {
-					let image = ''
-					const formattedSymbol = symbol.toLowerCase()
-					if (fs.existsSync(`./assets/svg/${formattedSymbol}.svg`)) {
-						image = `${baseImageUrl}/svg/${formattedSymbol}.svg`
-					} else if (fs.existsSync(`./assets/png/${formattedSymbol}.png`)) {
-						image = `${baseImageUrl}/png/${formattedSymbol}.png`
-					}
-					if (!blackList[symbol] && blackList[symbol] !== scriptHash) {
-						tokenData[symbol] = {
-							symbol,
-							companyName: name,
-							type: 'NEP5',
-							networks: {
-								[NETWORK_ID.MAINNET]: {
-									name,
-									hash: scriptHash,
-									decimals,
-									totalSupply: tokenInfo && tokenInfo.totalSupply
-								}
-							},
-							image
-						}
-					}
-				})
-			})
-			Promise.all(promises).then(() => {
-				fs.writeFile('tokenList.json', JSON.stringify(tokenData, null, 2))
-			})
-		})
-})
+function getImage(symbol) {
+	const formattedSymbol = symbol.toLowerCase()
+
+	if (fs.existsSync(`./assets/svg/${formattedSymbol}.svg`)) {
+		return `${baseImageUrl}/svg/${formattedSymbol}.svg`
+	} else if (fs.existsSync(`./assets/png/${formattedSymbol}.png`)) {
+		return `${baseImageUrl}/png/${formattedSymbol}.png`
+	}
+}
+
+async function getToken(endpoint, scriptHash) {
+	try {
+		const data = await api.nep5.getToken(endpoint, scriptHash)
+		return data
+	} catch (err) {
+		return null
+	}
+}
+
+async function getTokenData(net) {
+	const endpoint = await api.getRPCEndpointFrom({ net }, api.neoscan)
+	const response = await fetch(tokenDataUrl)
+	const data = await response.json()
+	const tokenData = {}
+
+	const promises = data.results.map(async ({ token }) => {
+		const { decimals, symbol, script_hash: hash, name } = token
+		const scriptHash = hash.startsWith('0x') ? hash.slice(2) : hash
+		const image = getImage(symbol)
+		const tokenInfo = await getToken(endpoint, scriptHash)
+
+		if (!tokenInfo) {
+			// eslint-disable-next-line no-console
+			console.warn(`Unable to fetch NEP5 token data for "${symbol}" (${scriptHash})`)
+			return
+		}
+
+		if (BLACKLIST[symbol] === scriptHash) {
+			return
+		}
+
+		tokenData[symbol] = {
+			symbol,
+			companyName: name,
+			type: 'NEP5',
+			networks: {
+				[NETWORK_ID.MAINNET]: {
+					name,
+					hash: scriptHash,
+					decimals,
+					totalSupply: tokenInfo && tokenInfo.totalSupply
+				}
+			},
+			image
+		}
+	})
+
+	await Promise.all(promises)
+
+	return tokenData
+}
+
+function writeTokenData(filename, tokenData) {
+	fs.writeFileSync(filename, JSON.stringify(tokenData, null, 2))
+}
+
+try {
+	writeTokenData('tokenList.json', getTokenData('MainNet'))
+} catch (err) {
+	// eslint-disable-next-line no-console
+	console.error(err)
+	process.exit(1)
+}
