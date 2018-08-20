@@ -24,6 +24,13 @@ function getImage(symbol) {
 	}
 }
 
+function sortObject(obj) {
+	return Object.keys(obj).sort().reduce((accumulator, key) => ({
+		...accumulator,
+		[key]: obj[key]
+	}), {})
+}
+
 async function getToken(endpoint, scriptHash) {
 	try {
 		const data = await api.nep5.getToken(endpoint, scriptHash)
@@ -73,7 +80,7 @@ async function getTokenData(net) {
 
 	await Promise.all(promises)
 
-	return tokenData
+	return sortObject(tokenData)
 }
 
 async function writeTokenData(filename) {
