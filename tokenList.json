@@ -19,9 +19,9 @@
     "networks": {
       "1": {
         "name": "Aphelion",
-        "hash": "6d36b38af912ca107f55a5daedc650054f7e4f75",
+        "hash": "a0777c3ce2b169d4a23bcba4565e3225a0122d95",
         "decimals": 8,
-        "totalSupply": 240000000
+        "totalSupply": 242817675
       }
     }
   },
@@ -114,7 +114,7 @@
         "name": "CrazyGladiator",
         "hash": "cbbe4c3c0d2a3622e9e8d65fe9f6240078f356c9",
         "decimals": 0,
-        "totalSupply": 5386
+        "totalSupply": 5499
       }
     }
   },
@@ -323,7 +323,7 @@
         "name": "Moonlight Lux",
         "hash": "bb3b54ab244b3658155f2db4429fc38ac4cef625",
         "decimals": 8,
-        "totalSupply": 797292923.655392
+        "totalSupply": 800540144.068664
       }
     }
   },
@@ -390,7 +390,7 @@
         "name": "Nevula Token",
         "hash": "6c5fa71d1cfb37eb579458af8accd3128e6b1fca",
         "decimals": 4,
-        "totalSupply": 20960000000
+        "totalSupply": 20960002400
       }
     }
   },
@@ -577,7 +577,7 @@
         "name": "NEP5.5 Coin With GAS 1:1",
         "hash": "961e628cc93d61bf636dc0443cf0548947a50dbe",
         "decimals": 8,
-        "totalSupply": 1768.1419345
+        "totalSupply": 1790.57795731
       }
     }
   },
@@ -602,9 +602,9 @@
     "networks": {
       "1": {
         "name": "Phantasma",
-        "hash": "ed07cffad18f1308db51920d99a2af60ac66a7b3",
+        "hash": "4b4f63919b9ecfd2483f0c72ff46ed31b5bbb7a4",
         "decimals": 8,
-        "totalSupply": 91136374
+        "totalSupply": 91137875
       }
     }
   },
