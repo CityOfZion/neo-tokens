@@ -11,7 +11,8 @@ const NETWORK_ID = {
 
 const BLACKLIST = {
 	NRV: '2e25d2127e0240c6deaf35394702feb236d4d7fc',
-	ONT: '442e7964f6486005235e87e082f56cd52aa663b8'
+	ONT: '442e7964f6486005235e87e082f56cd52aa663b8',
+	RPX: 'ecc6b20d3ccac1ee9ef109af5a7cdb85706b1df9'
 }
 
 function getImage(symbol) {
