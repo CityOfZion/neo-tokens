@@ -114,7 +114,7 @@
         "name": "CrazyGladiator",
         "hash": "cbbe4c3c0d2a3622e9e8d65fe9f6240078f356c9",
         "decimals": 0,
-        "totalSupply": 5670
+        "totalSupply": 5732
       }
     }
   },
@@ -336,7 +336,7 @@
         "name": "Moonlight Lux",
         "hash": "bb3b54ab244b3658155f2db4429fc38ac4cef625",
         "decimals": 8,
-        "totalSupply": 801907331.078232
+        "totalSupply": 802148775.316264
       }
     }
   },
@@ -590,7 +590,7 @@
         "name": "NEP5.5 Coin With GAS 1:1",
         "hash": "961e628cc93d61bf636dc0443cf0548947a50dbe",
         "decimals": 8,
-        "totalSupply": 1660.14294135
+        "totalSupply": 1670.14294135
       }
     }
   },
