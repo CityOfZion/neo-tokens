@@ -10,8 +10,14 @@ const NETWORK_ID = {
 }
 
 const BLACKLIST = {
-	NRV: '2e25d2127e0240c6deaf35394702feb236d4d7fc',
-	ONT: '442e7964f6486005235e87e082f56cd52aa663b8'
+	// neon-js RangeError failures
+	'98ed9573c864d7c325e12e5923b54a0e08a2a17e': 'LFX',
+	'c54fc1e02a674ce2de52493b3138fb80ccff5a6e': 'LFX',
+	'fd48828f107f400c1ae595366f301842886ec573': 'NNC',
+
+	// deprecated tokens
+	'2e25d2127e0240c6deaf35394702feb236d4d7fc': 'NRV',
+	'442e7964f6486005235e87e082f56cd52aa663b8': 'ONT'
 }
 
 function getImage(symbol) {
@@ -31,15 +37,6 @@ function sortObject(obj) {
 	}), {})
 }
 
-async function getToken(endpoint, scriptHash) {
-	try {
-		const data = await api.nep5.getToken(endpoint, scriptHash)
-		return data
-	} catch (err) {
-		return null
-	}
-}
-
 async function getTokenData(net) {
 	const endpoint = await api.getRPCEndpointFrom({ net }, api.neoscan)
 	const response = await fetch(tokenDataUrl)
@@ -49,18 +46,15 @@ async function getTokenData(net) {
 	const promises = data.results.map(async ({ token }) => {
 		const { decimals, symbol, script_hash: hash, name } = token
 		const scriptHash = hash.startsWith('0x') ? hash.slice(2) : hash
-		const image = getImage(symbol)
-		const tokenInfo = await getToken(endpoint, scriptHash)
 
-		if (!tokenInfo) {
+		if (BLACKLIST[scriptHash] === symbol) {
 			// eslint-disable-next-line no-console
-			console.warn(`Unable to fetch NEP5 token data for "${symbol}" (${scriptHash})`)
+			console.info(`Skipping blacklisted token "${symbol}" (${scriptHash})`)
 			return
 		}
 
-		if (BLACKLIST[symbol] === scriptHash) {
-			return
-		}
+		const image = getImage(symbol)
+		const tokenInfo = await api.nep5.getToken(endpoint, scriptHash)
 
 		tokenData[symbol] = {
 			symbol,
