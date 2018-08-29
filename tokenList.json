@@ -114,7 +114,7 @@
         "name": "CrazyGladiator",
         "hash": "cbbe4c3c0d2a3622e9e8d65fe9f6240078f356c9",
         "decimals": 0,
-        "totalSupply": 6519
+        "totalSupply": 6580
       }
     }
   },
@@ -336,7 +336,7 @@
         "name": "Moonlight Lux",
         "hash": "bb3b54ab244b3658155f2db4429fc38ac4cef625",
         "decimals": 8,
-        "totalSupply": 806829524.86488
+        "totalSupply": 806900563.365664
       }
     }
   },
@@ -356,12 +356,12 @@
   },
   "NKN": {
     "symbol": "NKN",
-    "companyName": "NKN Token",
+    "companyName": "NKN",
     "type": "NEP5",
     "networks": {
       "1": {
-        "name": "NKN Token",
-        "hash": "a0b328c01eac8b12b0f8a4fe93645d18fb3f1f0a",
+        "name": "NKN",
+        "hash": "c36aee199dbba6c3f439983657558cfb67629599",
         "decimals": 8,
         "totalSupply": 1000000000
       }
@@ -590,7 +590,7 @@
         "name": "NEP5.5 Coin With GAS 1:1",
         "hash": "961e628cc93d61bf636dc0443cf0548947a50dbe",
         "decimals": 8,
-        "totalSupply": 1613.95887437
+        "totalSupply": 1552.73528001
       }
     }
   },
@@ -615,9 +615,9 @@
     "networks": {
       "1": {
         "name": "Phantasma",
-        "hash": "4b4f63919b9ecfd2483f0c72ff46ed31b5bbb7a4",
+        "hash": "ed07cffad18f1308db51920d99a2af60ac66a7b3",
         "decimals": 8,
-        "totalSupply": 91137875
+        "totalSupply": 91136374
       }
     }
   },
