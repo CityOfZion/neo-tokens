@@ -628,7 +628,7 @@
     "networks": {
       "1": {
         "name": "Phantasma",
-        "hash": "4b4f63919b9ecfd2483f0c72ff46ed31b5bbb7a4",
+        "hash": "ed07cffad18f1308db51920d99a2af60ac66a7b3",
         "decimals": 8,
         "totalSupply": 91137875
       }
