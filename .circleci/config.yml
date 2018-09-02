@@ -54,50 +54,50 @@ jobs:
             fi
             echo "done."
 
-  nightly-build-and-deploy:
-    docker:
-      # specify the version you desire here
-      - image: circleci/node:8.11
+#   nightly-build-and-deploy:
+#     docker:
+#       # specify the version you desire here
+#       - image: circleci/node:8.11
 
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
+#       # Specify service dependencies here if necessary
+#       # CircleCI maintains a library of pre-built images
+#       # documented at https://circleci.com/docs/2.0/circleci-images/
+#       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/repo
+#     working_directory: ~/repo
 
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "a6:1f:55:e6:70:56:e3:1b:b4:2b:45:47:f9:3f:98:c6"
+#     steps:
+#       - add_ssh_keys:
+#           fingerprints:
+#             - "a6:1f:55:e6:70:56:e3:1b:b4:2b:45:47:f9:3f:98:c6"
 
-      - checkout
+#       - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+#       # Download and cache dependencies
+#       - restore_cache:
+#           keys:
+#           - v1-dependencies-{{ checksum "package.json" }}
+#           # fallback to using the latest cache if no exact match is found
+#           - v1-dependencies-
 
-      - run: yarn install
+#       - run: yarn install
 
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+#       - save_cache:
+#           paths:
+#             - node_modules
+#           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run the file!
-      - run: PROJECT_NAME="${CIRCLE_PROJECT_USERNAME}" yarn start
-      - run:
-          name: Push to GitHub
-          command: |
-            git pull origin master
-            git config user.email "${GH_EMAIL}"
-            git config user.name "${GH_NAME}"
-            git add .
-            git commit -m "[automated commit message] run script and deploy build version"
-            git push origin master
+#       # run the file!
+#       - run: PROJECT_NAME="${CIRCLE_PROJECT_USERNAME}" yarn start
+#       - run:
+#           name: Push to GitHub
+#           command: |
+#             git pull origin master
+#             git config user.email "${GH_EMAIL}"
+#             git config user.name "${GH_NAME}"
+#             git add .
+#             git commit -m "[automated commit message] run script and deploy build version"
+#             git push origin master
 
 workflows:
    version: 2
@@ -106,13 +106,13 @@ workflows:
      jobs:
        - build-and-deploy
 
-   nightly:
-     triggers:
-       - schedule:
-           cron: "0 0 * * *"
-           filters:
-             branches:
-               only:
-                 - master
-     jobs:
-       - nightly-build-and-deploy
+#    nightly:
+#      triggers:
+#        - schedule:
+#            cron: "0 0 * * *"
+#            filters:
+#              branches:
+#                only:
+#                  - master
+#      jobs:
+#        - nightly-build-and-deploy
