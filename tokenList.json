@@ -365,7 +365,8 @@
         "decimals": 8,
         "totalSupply": 50000000
       }
-    }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nex.svg"
   },
   "NKN": {
     "symbol": "NKN",
