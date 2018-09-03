@@ -361,7 +361,7 @@
     "networks": {
       "1": {
         "name": "NKN Token",
-        "hash": "a0b328c01eac8b12b0f8a4fe93645d18fb3f1f0a",
+        "hash": "c36aee199dbba6c3f439983657558cfb67629599",
         "decimals": 8,
         "totalSupply": 1000000000
       }

@@ -18,7 +18,8 @@ const BLACKLIST = {
 	// deprecated tokens
 	'2e25d2127e0240c6deaf35394702feb236d4d7fc': 'NRV',
 	'442e7964f6486005235e87e082f56cd52aa663b8': 'ONT',
-	'4b4f63919b9ecfd2483f0c72ff46ed31b5bbb7a4': 'SOUL'
+	'4b4f63919b9ecfd2483f0c72ff46ed31b5bbb7a4': 'SOUL',
+	'a0b328c01eac8b12b0f8a4fe93645d18fb3f1f0a': 'NKN'
 }
 
 function getImage(symbol) {
