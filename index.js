@@ -2,7 +2,7 @@ const fetch = require('isomorphic-fetch')
 const fs = require('fs')
 const { api } = require('@cityofzion/neon-js')
 
-const tokenDataUrl = 'http://notifications.neeeo.org/v1/tokens'
+const tokenDataUrl = 'https://n1.cityofzion.io/v1/tokens'
 const baseImageUrl = `https://rawgit.com/${process.env.PROJECT_NAME}/neo-tokens/master/assets`
 
 const NETWORK_ID = {
