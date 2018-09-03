@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="82px" viewBox="0 0 73 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>NEX TOKEN 01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.11022302e-14%" y1="100%" x2="100%" y2="3.74939946e-31%" id="linearGradient-1">
+            <stop stop-color="#003AE8" offset="0%"></stop>
+            <stop stop-color="#6F99FF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="66.796875%" cy="22.76731%" fx="66.796875%" fy="22.76731%" r="60.1677552%" gradientTransform="translate(0.667969,0.227673),scale(1.000000,0.890244),rotate(-43.739032),translate(-0.667969,-0.227673)" id="radialGradient-2">
+            <stop stop-color="#2967FC" offset="0%"></stop>
+            <stop stop-color="#0049E8" offset="100%"></stop>
+        </radialGradient>
+        <path d="M37.4793881,0.550067315 L71.9793881,19.9267796 C72.6097784,20.2808345 73,20.9475561 73,21.6705683 L73,60.3294317 C73,61.0524439 72.6097784,61.7191655 71.9793881,62.0732204 L37.4793881,81.4499327 C36.8711466,81.7915478 36.1288534,81.7915478 35.5206119,81.4499327 L1.02061185,62.0732204 C0.390221589,61.7191655 2.84217094e-14,61.0524439 2.84217094e-14,60.3294317 L-8.8817842e-16,21.6705683 C-8.8817842e-16,20.9475561 0.390221589,20.2808345 1.02061185,19.9267796 L35.5206119,0.550067315 C36.1288534,0.208452183 36.8711466,0.208452183 37.4793881,0.550067315 Z" id="path-3"></path>
+    </defs>
+    <g id="NEX-TOKEN-01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Token">
+            <g id="Token-09">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Polygon">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    <use fill="url(#radialGradient-2)" style="mix-blend-mode: hard-light;" xlink:href="#path-3"></use>
+                </g>
+                <path d="M23,31.6958698 L30.1433804,40.8181312 L30.1433804,55.745098 L23,55.745098 L23,31.6958698 Z M43.2608934,26 L50.2747253,26 L50.2747253,55.745098 L43.8139516,55.745098 L23,28.9639171 L23,26 L29.4576133,26 L43.2608934,43.6989648 L43.2608934,26 Z" id="Monogram" fill="#FFFFFF" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
