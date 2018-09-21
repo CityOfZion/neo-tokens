@@ -50,7 +50,7 @@
         "totalSupply": 342015750
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/asa.png"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/asa.png"
   },
   "AVA": {
     "symbol": "AVA",
@@ -64,7 +64,7 @@
         "totalSupply": 61571086
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ava.png"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/ava.png"
   },
   "BCS": {
     "symbol": "BCS",
@@ -114,7 +114,7 @@
         "name": "CrazyGladiator",
         "hash": "cbbe4c3c0d2a3622e9e8d65fe9f6240078f356c9",
         "decimals": 0,
-        "totalSupply": 5499
+        "totalSupply": 6912
       }
     }
   },
@@ -169,7 +169,7 @@
         "totalSupply": 10000000000
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/dbc.svg"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/svg/dbc.svg"
   },
   "EDS": {
     "symbol": "EDS",
@@ -197,6 +197,19 @@
       }
     }
   },
+  "EPN": {
+    "symbol": "EPN",
+    "companyName": "Epiphany",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Epiphany",
+        "hash": "a79cb7b4e85c8b23940d47bb3ddef76a5f13e449",
+        "decimals": 8,
+        "totalSupply": 500000000
+      }
+    }
+  },
   "EXT": {
     "symbol": "EXT",
     "companyName": "Experience Token",
@@ -221,7 +234,8 @@
         "decimals": 8,
         "totalSupply": 100000000
       }
-    }
+    },
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/ftw.png"
   },
   "GALA": {
     "symbol": "GALA",
@@ -323,7 +337,7 @@
         "name": "Moonlight Lux",
         "hash": "bb3b54ab244b3658155f2db4429fc38ac4cef625",
         "decimals": 8,
-        "totalSupply": 800540144.068664
+        "totalSupply": 808257693.386336
       }
     }
   },
@@ -339,7 +353,20 @@
         "totalSupply": 580000000
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/mct.svg"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/svg/mct.svg"
+  },
+  "NEX": {
+    "symbol": "NEX",
+    "companyName": "NEX Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "NEX Token",
+        "hash": "3a4acd3647086e7c44398aac0349802e6a171129",
+        "decimals": 8,
+        "totalSupply": 50000000
+      }
+    }
   },
   "NKN": {
     "symbol": "NKN",
@@ -379,7 +406,7 @@
         "totalSupply": 46928004
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nrve.svg"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/svg/nrve.svg"
   },
   "NVL": {
     "symbol": "NVL",
@@ -406,7 +433,7 @@
         "totalSupply": 68960125.99999999
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/obt.png"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/obt.png"
   },
   "ONT": {
     "symbol": "ONT",
@@ -420,7 +447,7 @@
         "totalSupply": 1000000000.0000135
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ont.png"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/ont.png"
   },
   "PEGCNY": {
     "symbol": "PEGCNY",
@@ -457,7 +484,7 @@
         "name": "Red Pulse Phoenix Token",
         "hash": "1578103c13e39df15d0d29826d957e85d770d8c9",
         "decimals": 8,
-        "totalSupply": 1362278592.356724
+        "totalSupply": 1369411669.0186386
       }
     }
   },
@@ -499,7 +526,7 @@
         "totalSupply": 600000003
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/svg/qlc.svg"
   },
   "RHT": {
     "symbol": "RHT",
@@ -513,7 +540,7 @@
         "totalSupply": 60000
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/rht.png"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/rht.png"
   },
   "RPX": {
     "symbol": "RPX",
@@ -527,7 +554,20 @@
         "totalSupply": 1358371250
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/rpx.svg"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/svg/rpx.svg"
+  },
+  "SCC": {
+    "symbol": "SCC",
+    "companyName": "Stem Cell Coin",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Stem Cell Coin",
+        "hash": "323571cfc42a40d48d64832a7da594039fbac76a",
+        "decimals": 8,
+        "totalSupply": 5000000000
+      }
+    }
   },
   "SDS": {
     "symbol": "SDS",
@@ -577,7 +617,7 @@
         "name": "NEP5.5 Coin With GAS 1:1",
         "hash": "961e628cc93d61bf636dc0443cf0548947a50dbe",
         "decimals": 8,
-        "totalSupply": 1790.57795731
+        "totalSupply": 1261.30210473
       }
     }
   },
@@ -593,7 +633,7 @@
         "totalSupply": 9750509
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/sgt.svg"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/svg/sgt.svg"
   },
   "SOUL": {
     "symbol": "SOUL",
@@ -672,7 +712,7 @@
         "totalSupply": 9795844687
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/tky.png"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/tky.png"
   },
   "TNC": {
     "symbol": "TNC",
@@ -686,7 +726,7 @@
         "totalSupply": 1000000000
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/tnc.svg"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/svg/tnc.svg"
   },
   "TOLL": {
     "symbol": "TOLL",
@@ -765,6 +805,6 @@
         "totalSupply": 1000000000
       }
     },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/zpt.png"
+    "image": "https://rawgit.com/undefined/neo-tokens/master/assets/png/zpt.png"
   }
 }
