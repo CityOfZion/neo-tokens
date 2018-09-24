@@ -92,6 +92,19 @@
       }
     }
   },
+  "CGAS": {
+    "symbol": "CGAS",
+    "companyName": "NEP5 GAS",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "NEP5 GAS",
+        "hash": "74f2dc36a68fdc4682034178eb2220729231db76",
+        "decimals": 8,
+        "totalSupply": 0.50001
+      }
+    }
+  },
   "CGE": {
     "symbol": "CGE",
     "companyName": "Concierge Token",
@@ -114,7 +127,7 @@
         "name": "CrazyGladiator",
         "hash": "cbbe4c3c0d2a3622e9e8d65fe9f6240078f356c9",
         "decimals": 0,
-        "totalSupply": 6796
+        "totalSupply": 7158
       }
     }
   },
@@ -356,7 +369,7 @@
   },
   "NEX": {
     "symbol": "NEX",
-    "companyName": "Neon Exchange",
+    "companyName": "NEX Token",
     "type": "NEP5",
     "networks": {
       "1": {
@@ -370,11 +383,11 @@
   },
   "NKN": {
     "symbol": "NKN",
-    "companyName": "NKN Token",
+    "companyName": "NKN",
     "type": "NEP5",
     "networks": {
       "1": {
-        "name": "NKN Token",
+        "name": "NKN",
         "hash": "c36aee199dbba6c3f439983657558cfb67629599",
         "decimals": 8,
         "totalSupply": 1000000000
@@ -484,7 +497,7 @@
         "name": "Red Pulse Phoenix Token",
         "hash": "1578103c13e39df15d0d29826d957e85d770d8c9",
         "decimals": 8,
-        "totalSupply": 1366197174.1476548
+        "totalSupply": 1373709430.4085617
       }
     }
   },
@@ -617,7 +630,7 @@
         "name": "NEP5.5 Coin With GAS 1:1",
         "hash": "961e628cc93d61bf636dc0443cf0548947a50dbe",
         "decimals": 8,
-        "totalSupply": 1565.9665269
+        "totalSupply": 1237.50387285
       }
     }
   },
@@ -740,6 +753,20 @@
         "totalSupply": 708097040
       }
     }
+  },
+  "UTD": {
+    "symbol": "UTD",
+    "companyName": "AIRDROP UNITED",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "AIRDROP UNITED",
+        "hash": "8399031038683d2867fbe1ba06fb26965ccd1de0",
+        "decimals": 8,
+        "totalSupply": 5000000000
+      }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/utd.png"
   },
   "WWB": {
     "symbol": "WWB",
