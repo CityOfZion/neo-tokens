@@ -1,3 +1,6 @@
+// workaround for https://github.com/nodejs/node/issues/16196
+require('tls').DEFAULT_ECDH_CURVE = 'auto'
+
 const fetch = require('isomorphic-fetch')
 const fs = require('fs')
 const { api } = require('@cityofzion/neon-js')
