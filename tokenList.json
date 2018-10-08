@@ -32,9 +32,9 @@
     "networks": {
       "1": {
         "name": "Aphelion",
-        "hash": "6d36b38af912ca107f55a5daedc650054f7e4f75",
+        "hash": "a0777c3ce2b169d4a23bcba4565e3225a0122d95",
         "decimals": 8,
-        "totalSupply": 240000000
+        "totalSupply": 242817675
       }
     }
   },
@@ -112,9 +112,9 @@
     "networks": {
       "1": {
         "name": "NEP5 GAS",
-        "hash": "9121e89e8a0849857262d67c8408601b5e8e0524",
+        "hash": "74f2dc36a68fdc4682034178eb2220729231db76",
         "decimals": 8,
-        "totalSupply": 0
+        "totalSupply": 5.55851
       }
     }
   },
