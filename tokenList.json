@@ -114,7 +114,7 @@
         "name": "NEP5 GAS",
         "hash": "74f2dc36a68fdc4682034178eb2220729231db76",
         "decimals": 8,
-        "totalSupply": 25384.97681972
+        "totalSupply": 25372.90681972
       }
     }
   },
@@ -448,20 +448,6 @@
         "totalSupply": 1000000000
       }
     }
-  },
-  "NOS": {
-    "symbol": "NOS",
-    "companyName": "nOS",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "nOS",
-        "hash": "c9c0fc5a2b66a29d6b14601e752e6e1a445e088d",
-        "decimals": 8,
-        "totalSupply": 278215016
-      }
-    },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
   },
   "NRVE": {
     "symbol": "NRVE",
