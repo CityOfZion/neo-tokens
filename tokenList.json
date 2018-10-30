@@ -1,12 +1,12 @@
 {
   "\u0000": {
     "symbol": "\u0000",
-    "companyName": "NNS DomainCenter",
+    "companyName": "\u0000",
     "type": "NEP5",
     "networks": {
       "1": {
-        "name": "NNS DomainCenter",
-        "hash": "bd3fa97e2bc841292c1e77f9a97a1393d5208b48",
+        "name": "\u0000",
+        "hash": "6e2aea28af9c5febea0774759b1b76398e3167f1",
         "decimals": 0,
         "totalSupply": 0
       }
@@ -32,9 +32,9 @@
     "networks": {
       "1": {
         "name": "Aphelion",
-        "hash": "a0777c3ce2b169d4a23bcba4565e3225a0122d95",
+        "hash": "6d36b38af912ca107f55a5daedc650054f7e4f75",
         "decimals": 8,
-        "totalSupply": 242817675
+        "totalSupply": 240000000
       }
     }
   },
@@ -114,7 +114,7 @@
         "name": "NEP5 GAS",
         "hash": "74f2dc36a68fdc4682034178eb2220729231db76",
         "decimals": 8,
-        "totalSupply": 25372.90681972
+        "totalSupply": 25362.65113681
       }
     }
   },
@@ -448,6 +448,20 @@
         "totalSupply": 1000000000
       }
     }
+  },
+  "NOS": {
+    "symbol": "NOS",
+    "companyName": "nOS",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "nOS",
+        "hash": "c9c0fc5a2b66a29d6b14601e752e6e1a445e088d",
+        "decimals": 8,
+        "totalSupply": 283023650
+      }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
   },
   "NRVE": {
     "symbol": "NRVE",
