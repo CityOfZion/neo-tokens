@@ -6,6 +6,7 @@ const fs = require('fs')
 const { api } = require('@cityofzion/neon-js')
 
 const tokenDataUrl = 'https://n1.cityofzion.io/v1/tokens'
+const backupTokenDataUrl = 'http://notifications1.neeeo.org/v1/tokens'
 const baseImageUrl = `https://rawgit.com/${process.env.PROJECT_NAME}/neo-tokens/master/assets`
 
 const NETWORK_ID = {
@@ -44,13 +45,27 @@ function sortObject(obj) {
 	}), {})
 }
 
+function mergeTokenData(trusted, backup) {
+	const filteredBackup = backup.filter(backupToken => {
+		const found = trusted.find(token => token.contract.hash === backupToken.contract.hash)
+		return !found
+	})
+
+	return filteredBackup.concat(trusted)
+}
+
 async function getTokenData(net) {
 	const endpoint = await api.getRPCEndpointFrom({ net }, api.neoscan)
 	const response = await fetch(tokenDataUrl)
+	const backupResponse = await fetch(backupTokenDataUrl)
+
 	const data = await response.json()
+	const backupData = await backupResponse.json()
+	const mergedData = mergeTokenData(data.results, backupData.results)
+
 	const tokenData = {}
 
-	const promises = data.results.map(async ({ token }) => {
+	const promises = mergedData.map(async ({ token }) => {
 		const { decimals, symbol, script_hash: hash, name } = token
 		const scriptHash = hash.startsWith('0x') ? hash.slice(2) : hash
 
