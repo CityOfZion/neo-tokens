@@ -25,7 +25,8 @@ const BLACKLIST = {
 	'4b4f63919b9ecfd2483f0c72ff46ed31b5bbb7a4': 'SOUL',
 	'505663a29d83663a838eee091249abd167e928f5': 'CGAS', // v1.0.2
 	'9121e89e8a0849857262d67c8408601b5e8e0524': 'CGAS', // v1.0.1
-	'a0b328c01eac8b12b0f8a4fe93645d18fb3f1f0a': 'NKN'
+	'a0b328c01eac8b12b0f8a4fe93645d18fb3f1f0a': 'NKN',
+	'6d36b38af912ca107f55a5daedc650054f7e4f75': 'APH'
 }
 
 function getImage(symbol) {
