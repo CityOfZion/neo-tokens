@@ -32,9 +32,9 @@
     "networks": {
       "1": {
         "name": "Aphelion",
-        "hash": "a0777c3ce2b169d4a23bcba4565e3225a0122d95",
+        "hash": "6d36b38af912ca107f55a5daedc650054f7e4f75",
         "decimals": 8,
-        "totalSupply": 242817675
+        "totalSupply": 240000000
       }
     }
   },
@@ -114,7 +114,7 @@
         "name": "NEP5 GAS",
         "hash": "74f2dc36a68fdc4682034178eb2220729231db76",
         "decimals": 8,
-        "totalSupply": 5.55851
+        "totalSupply": 25362.65113681
       }
     }
   },
@@ -140,7 +140,20 @@
         "name": "CrazyGladiator",
         "hash": "cbbe4c3c0d2a3622e9e8d65fe9f6240078f356c9",
         "decimals": 0,
-        "totalSupply": 7232
+        "totalSupply": 7262
+      }
+    }
+  },
+  "CNEO": {
+    "symbol": "CNEO",
+    "companyName": "NEP5 NEO",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "NEP5 NEO",
+        "hash": "c074a05e9dcf0141cbe6b4b3475dd67baf4dcb60",
+        "decimals": 8,
+        "totalSupply": 15
       }
     }
   },
@@ -262,6 +275,20 @@
       }
     },
     "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftw.png"
+  },
+  "FTX": {
+    "symbol": "FTX",
+    "companyName": "For The Win X",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "For The Win X",
+        "hash": "aac66f9779ca67d819d05492805d251dab02fc7b",
+        "decimals": 8,
+        "totalSupply": 50000000
+      }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftx.png"
   },
   "GALA": {
     "symbol": "GALA",
@@ -422,6 +449,20 @@
       }
     }
   },
+  "NOS": {
+    "symbol": "NOS",
+    "companyName": "nOS",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "nOS",
+        "hash": "c9c0fc5a2b66a29d6b14601e752e6e1a445e088d",
+        "decimals": 8,
+        "totalSupply": 283023650
+      }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
+  },
   "NRVE": {
     "symbol": "NRVE",
     "companyName": "Narrative Token",
@@ -512,7 +553,7 @@
         "name": "Red Pulse Phoenix Token",
         "hash": "1578103c13e39df15d0d29826d957e85d770d8c9",
         "decimals": 8,
-        "totalSupply": 1381262994.0262673
+        "totalSupply": 1388858092.1359577
       }
     }
   },
@@ -645,7 +686,7 @@
         "name": "NEP5.5 Coin With GAS 1:1",
         "hash": "961e628cc93d61bf636dc0443cf0548947a50dbe",
         "decimals": 8,
-        "totalSupply": 1156.1434196
+        "totalSupply": 1000.21924607
       }
     }
   },
