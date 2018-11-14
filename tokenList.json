@@ -32,9 +32,9 @@
     "networks": {
       "1": {
         "name": "Aphelion",
-        "hash": "6d36b38af912ca107f55a5daedc650054f7e4f75",
+        "hash": "a0777c3ce2b169d4a23bcba4565e3225a0122d95",
         "decimals": 8,
-        "totalSupply": 240000000
+        "totalSupply": 242817675
       }
     }
   },
@@ -114,7 +114,7 @@
         "name": "NEP5 GAS",
         "hash": "74f2dc36a68fdc4682034178eb2220729231db76",
         "decimals": 8,
-        "totalSupply": 25362.65113681
+        "totalSupply": 24703.59811869
       }
     }
   },
@@ -140,7 +140,7 @@
         "name": "CrazyGladiator",
         "hash": "cbbe4c3c0d2a3622e9e8d65fe9f6240078f356c9",
         "decimals": 0,
-        "totalSupply": 7262
+        "totalSupply": 7267
       }
     }
   },
@@ -153,7 +153,7 @@
         "name": "NEP5 NEO",
         "hash": "c074a05e9dcf0141cbe6b4b3475dd67baf4dcb60",
         "decimals": 8,
-        "totalSupply": 15
+        "totalSupply": 12
       }
     }
   },
@@ -409,6 +409,32 @@
     },
     "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/mct.svg"
   },
+  "MRG": {
+    "symbol": "MRG",
+    "companyName": "merge",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "merge",
+        "hash": "5a3973149608ddbc9b509fc951b3ff2c47419774",
+        "decimals": 8,
+        "totalSupply": 2000000000
+      }
+    }
+  },
+  "MRW": {
+    "symbol": "MRW",
+    "companyName": "MirrorRoid World Coin",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "MirrorRoid World Coin",
+        "hash": "02f5f3c6e6bd07c8ff07ad779bb4f7bf9dc735e3",
+        "decimals": 8,
+        "totalSupply": 7500000000
+      }
+    }
+  },
   "NEX": {
     "symbol": "NEX",
     "companyName": "NEX Token",
@@ -448,20 +474,6 @@
         "totalSupply": 1000000000
       }
     }
-  },
-  "NOS": {
-    "symbol": "NOS",
-    "companyName": "nOS",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "nOS",
-        "hash": "c9c0fc5a2b66a29d6b14601e752e6e1a445e088d",
-        "decimals": 8,
-        "totalSupply": 283023650
-      }
-    },
-    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
   },
   "NRVE": {
     "symbol": "NRVE",
@@ -553,7 +565,7 @@
         "name": "Red Pulse Phoenix Token",
         "hash": "1578103c13e39df15d0d29826d957e85d770d8c9",
         "decimals": 8,
-        "totalSupply": 1388858092.1359577
+        "totalSupply": 1393944678.324201
       }
     }
   },
@@ -596,6 +608,19 @@
       }
     },
     "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
+  },
+  "RCPT": {
+    "symbol": "RCPT",
+    "companyName": "Recoupit",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Recoupit",
+        "hash": "0dc27e3977160128c0dd6077a4b5a8b088eed151",
+        "decimals": 8,
+        "totalSupply": 401
+      }
+    }
   },
   "RHT": {
     "symbol": "RHT",
@@ -686,7 +711,7 @@
         "name": "NEP5.5 Coin With GAS 1:1",
         "hash": "961e628cc93d61bf636dc0443cf0548947a50dbe",
         "decimals": 8,
-        "totalSupply": 1000.21924607
+        "totalSupply": 991.01924607
       }
     }
   },
@@ -783,6 +808,19 @@
     },
     "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/tky.png"
   },
+  "TMN": {
+    "symbol": "TMN",
+    "companyName": "TranslateMe Network Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "TranslateMe Network Token",
+        "hash": "d613223fa138a1555ff711581982462acde209c5",
+        "decimals": 8,
+        "totalSupply": 100000000
+      }
+    }
+  },
   "TNC": {
     "symbol": "TNC",
     "companyName": "Trinity Network Credit",
@@ -823,6 +861,32 @@
       }
     },
     "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/utd.png"
+  },
+  "WANDN": {
+    "symbol": "WANDN",
+    "companyName": "WAND NEO",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "WAND NEO",
+        "hash": "7703bf394b5f884ebf57b9c6d22f106035e2c029",
+        "decimals": 8,
+        "totalSupply": 100000000
+      }
+    }
+  },
+  "WHT": {
+    "symbol": "WHT",
+    "companyName": "World Hideout Coin",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "World Hideout Coin",
+        "hash": "25bd2b29636fed5945d26e1d03d279e1d9259320",
+        "decimals": 8,
+        "totalSupply": 10500000000
+      }
+    }
   },
   "WWB": {
     "symbol": "WWB",
