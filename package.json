@@ -12,6 +12,7 @@
 	"dependencies": {
 		"@cityofzion/neon-js": "^3.9.2",
 		"eslint": "^4.19.1",
+		"flatten": "^1.0.2",
 		"isomorphic-fetch": "^2.2.1"
 	}
 }
