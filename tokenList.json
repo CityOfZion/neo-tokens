@@ -6,7 +6,7 @@
     "networks": {
       "1": {
         "name": "\u0000",
-        "hash": "6e2aea28af9c5febea0774759b1b76398e3167f1",
+        "hash": "fe041f87b1a4cc0efb827664d6f20a0e990d0969",
         "decimals": 0,
         "totalSupply": 0
       }
@@ -474,6 +474,20 @@
         "totalSupply": 1000000000
       }
     }
+  },
+  "NOS": {
+    "symbol": "NOS",
+    "companyName": "nOS",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "nOS",
+        "hash": "c9c0fc5a2b66a29d6b14601e752e6e1a445e088d",
+        "decimals": 8,
+        "totalSupply": 299625982
+      }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
   },
   "NRVE": {
     "symbol": "NRVE",
