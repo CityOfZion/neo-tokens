@@ -3,6 +3,7 @@ require('tls').DEFAULT_ECDH_CURVE = 'auto'
 
 const fetch = require('isomorphic-fetch')
 const fs = require('fs')
+const flatten = require('flatten')
 const { api } = require('@cityofzion/neon-js')
 
 const tokenDataUrl = 'https://n1.cityofzion.io/v1/tokens'
@@ -29,6 +30,14 @@ const BLACKLIST = {
 	'6d36b38af912ca107f55a5daedc650054f7e4f75': 'APH'
 }
 
+// Some tokens don't appear in either of the token notification URLs.  Maybe because they use NEP8?
+const EXTRA_TOKENS = [{
+	name: 'nOS',
+	symbol: 'NOS',
+	decimals: 8,
+	script_hash: '0xc9c0fc5a2b66a29d6b14601e752e6e1a445e088d'
+}].map((token) => ({ token }))
+
 function getImage(symbol) {
 	const formattedSymbol = symbol.toLowerCase()
 
@@ -46,9 +55,9 @@ function sortObject(obj) {
 	}), {})
 }
 
-function mergeTokenData(trusted, backup) {
-	const filteredBackup = backup.filter(backupToken => {
-		const found = trusted.find(token => token.contract.hash === backupToken.contract.hash)
+function mergeTokenData(trusted, ...backups) {
+	const filteredBackup = flatten(backups).filter(backupToken => {
+		const found = trusted.find(token => token.token.script_hash === backupToken.token.script_hash)
 		return !found
 	})
 
@@ -62,7 +71,7 @@ async function getTokenData(net) {
 
 	const data = await response.json()
 	const backupData = await backupResponse.json()
-	const mergedData = mergeTokenData(data.results, backupData.results)
+	const mergedData = mergeTokenData(data.results, backupData.results, EXTRA_TOKENS)
 
 	const tokenData = {}
 
