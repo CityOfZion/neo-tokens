@@ -27,7 +27,8 @@ const BLACKLIST = {
 	'505663a29d83663a838eee091249abd167e928f5': 'CGAS', // v1.0.2
 	'9121e89e8a0849857262d67c8408601b5e8e0524': 'CGAS', // v1.0.1
 	'a0b328c01eac8b12b0f8a4fe93645d18fb3f1f0a': 'NKN',
-	'6d36b38af912ca107f55a5daedc650054f7e4f75': 'APH'
+	'6d36b38af912ca107f55a5daedc650054f7e4f75': 'APH',
+	'0a91cdc3c5ff89983c79e3c72e1ccd9e5beaa5d5': 'SPOT'
 }
 
 // Some tokens don't appear in either of the token notification URLs.  Maybe because they use NEP8?
