@@ -486,7 +486,8 @@
         "decimals": 8,
         "totalSupply": 1
       }
-    }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nnn.svg"
   },
   "NOS": {
     "symbol": "NOS",
