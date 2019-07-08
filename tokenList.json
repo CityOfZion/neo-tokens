@@ -530,6 +530,20 @@
       }
     }
   },
+  "NVM": {
+    "symbol": "NVM",
+    "companyName": "Novem Token",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Novem Token",
+        "hash": "beb9e8b9d596ac585df35badd8cad3f75198aa99",
+        "decimals": 8,
+        "totalSupply": 300000000
+      }
+    },
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nvm.svg"
+  },
   "OBT": {
     "symbol": "OBT",
     "companyName": "Orbis",
