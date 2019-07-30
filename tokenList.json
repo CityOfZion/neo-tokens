@@ -67,6 +67,7 @@
   },
   "AVA": {
     "symbol": "AVA",
+    "cryptocompareSymbol": "AVALA",
     "companyName": "Travala",
     "type": "NEP5",
     "networks": {
@@ -773,6 +774,7 @@
   },
   "SOUL": {
     "symbol": "SOUL",
+    "cryptocompareSymbol": "SOUL*",
     "companyName": "Phantasma",
     "type": "NEP5",
     "networks": {
