@@ -984,6 +984,20 @@
       }
     }
   },
+  "LFX": {
+    "symbol": "LFX",
+    "companyName": "LIFEX",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "LIFEX",
+        "hash": "c54fc1e02a674ce2de52493b3138fb80ccff5a6e",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    },
+    "image": "https://cdn.o3.network/img/nep5svgs/LFX.svg"
+  },
   "ZPT": {
     "symbol": "ZPT",
     "companyName": "Zeepin Token",
