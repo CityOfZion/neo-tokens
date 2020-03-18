@@ -533,12 +533,12 @@
   },
   "NVM": {
     "symbol": "NVM",
-    "companyName": "Novem Token",
+    "companyName": "Novem Gold AG",
     "type": "NEP5",
     "networks": {
       "1": {
         "name": "Novem Token",
-        "hash": "beb9e8b9d596ac585df35badd8cad3f75198aa99",
+        "hash": "2077a653306adb450516ea4813aebfbcdf594c97",
         "decimals": 8,
         "totalSupply": 300000000
       }
