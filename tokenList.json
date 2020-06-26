@@ -483,7 +483,7 @@
     "networks": {
       "1": {
         "name": "Novem Gold Token",
-        "hash": "1e892bd588ea4ab409b3a93d3049d6115c6727f3",
+        "hash": "53b7577befb37d4d3b95a02f60f5da8933ab5f04",
         "decimals": 8,
         "totalSupply": 1
       }
