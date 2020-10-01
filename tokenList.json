@@ -270,7 +270,7 @@
     "networks": {
       "1": {
         "name": "Flamingo Finance",
-        "hash": "0x4d9eab13620fe3569ba3b0e56e2877739e4145e3",
+        "hash": "4d9eab13620fe3569ba3b0e56e2877739e4145e3",
         "decimals": 8,
         "totalSupply": 100000000
       }
