@@ -826,7 +826,7 @@
     }
   },
   "SWTH V2": {
-    "symbol": "SWTH OLD",
+    "symbol": "SWTH (OLD)",
     "companyName": "Switcheo",
     "type": "NEP5",
     "networks": {
