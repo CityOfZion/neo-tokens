@@ -63,8 +63,7 @@
         "totalSupply": 342015750
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/asa.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/asa.png"
   },
   "AVA": {
     "symbol": "AVA",
@@ -79,8 +78,7 @@
         "totalSupply": 61571086
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ava.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ava.png"
   },
   "BCS": {
     "symbol": "BCS",
@@ -131,19 +129,6 @@
         "hash": "34579e4614ac1a7bd295372d3de8621770c76cdc",
         "decimals": 8,
         "totalSupply": 61571086
-      }
-    }
-  },
-  "SWTH V2": {
-    "symbol": "SWTH (OLD)",
-    "companyName": "Switcheo",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Switcheo Legacy V2",
-        "hash": "ab38352559b8b203bde5fddfa0b07d8b2525e132",
-        "decimals": 8,
-        "totalSupply": 1000000000
       }
     }
   },
@@ -224,8 +209,7 @@
         "totalSupply": 10000000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/dbc.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/dbc.svg"
   },
   "EDS": {
     "symbol": "EDS",
@@ -304,8 +288,7 @@
         "totalSupply": 100000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftw.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftw.png"
   },
   "FTX": {
     "symbol": "FTX",
@@ -319,8 +302,7 @@
         "totalSupply": 50000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftx.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftx.png"
   },
   "GALA": {
     "symbol": "GALA",
@@ -439,8 +421,7 @@
         "totalSupply": 580000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/mct.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/mct.svg"
   },
   "MRG": {
     "symbol": "MRG",
@@ -480,8 +461,7 @@
         "totalSupply": 50000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nex.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nex.svg"
   },
   "NKN": {
     "symbol": "NKN",
@@ -521,8 +501,7 @@
         "totalSupply": 1
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nnn.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nnn.svg"
   },
   "NOS": {
     "symbol": "NOS",
@@ -536,8 +515,7 @@
         "totalSupply": 299625982
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
   },
   "NRVE": {
     "symbol": "NRVE",
@@ -551,8 +529,7 @@
         "totalSupply": 46928004
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nrve.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nrve.svg"
   },
   "NVL": {
     "symbol": "NVL",
@@ -579,8 +556,7 @@
         "totalSupply": 300000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nvm.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nvm.svg"
   },
   "OBT": {
     "symbol": "OBT",
@@ -594,8 +570,7 @@
         "totalSupply": 68960125.99999999
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/obt.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/obt.png"
   },
   "ONT": {
     "symbol": "ONT",
@@ -609,8 +584,7 @@
         "totalSupply": 1000000000.0000135
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ont.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ont.png"
   },
   "PEGCNY": {
     "symbol": "PEGCNY",
@@ -689,8 +663,7 @@
         "totalSupply": 600000003
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
   },
   "RCPT": {
     "symbol": "RCPT",
@@ -717,8 +690,7 @@
         "totalSupply": 60000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/rht.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/rht.png"
   },
   "RPX": {
     "symbol": "RPX",
@@ -732,8 +704,7 @@
         "totalSupply": 1358371250
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/rpx.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/rpx.svg"
   },
   "SCC": {
     "symbol": "SCC",
@@ -812,8 +783,7 @@
         "totalSupply": 9750509
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/sgt.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/sgt.svg"
   },
   "SOUL": {
     "symbol": "SOUL",
@@ -855,6 +825,19 @@
       }
     }
   },
+  "SWTH": {
+    "symbol": "SWTH",
+    "companyName": "Switcheo",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Switcheo",
+        "hash": "ab38352559b8b203bde5fddfa0b07d8b2525e132",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
   "THOR": {
     "symbol": "THOR",
     "companyName": "Thor Token",
@@ -880,8 +863,7 @@
         "totalSupply": 9795844687
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/tky.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/tky.png"
   },
   "TMN": {
     "symbol": "TMN",
@@ -908,8 +890,7 @@
         "totalSupply": 1000000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/tnc.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/tnc.svg"
   },
   "BRDG": {
     "symbol": "BRDG",
@@ -936,8 +917,7 @@
         "totalSupply": 8e-7
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/utd.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/utd.png"
   },
   "WANDN": {
     "symbol": "WANDN",
@@ -1043,20 +1023,6 @@
         "totalSupply": 1000000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/zpt.png"
-  },
-  "SWTH V3": {
-    "symbol": "SWTH",
-    "companyName": "Switcheo",
-    "type": "NEP5",
-    "networks": {
-      "1": {
-        "name": "Switcheo V3",
-        "hash": "3e09e602eeeb401a2fec8e8ea137d59aae54a139",
-        "decimals": 8,
-        "totalSupply": 1000000000
-      }
-    }
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/zpt.png"
   }
 }
