@@ -63,8 +63,7 @@
         "totalSupply": 342015750
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/asa.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/asa.png"
   },
   "AVA": {
     "symbol": "AVA",
@@ -79,8 +78,7 @@
         "totalSupply": 61571086
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ava.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ava.png"
   },
   "BCS": {
     "symbol": "BCS",
@@ -224,8 +222,7 @@
         "totalSupply": 10000000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/dbc.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/dbc.svg"
   },
   "EDS": {
     "symbol": "EDS",
@@ -304,8 +301,7 @@
         "totalSupply": 100000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftw.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftw.png"
   },
   "FTX": {
     "symbol": "FTX",
@@ -319,8 +315,7 @@
         "totalSupply": 50000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftx.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ftx.png"
   },
   "GALA": {
     "symbol": "GALA",
@@ -439,8 +434,7 @@
         "totalSupply": 580000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/mct.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/mct.svg"
   },
   "MRG": {
     "symbol": "MRG",
@@ -480,8 +474,7 @@
         "totalSupply": 50000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nex.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nex.svg"
   },
   "NKN": {
     "symbol": "NKN",
@@ -521,8 +514,7 @@
         "totalSupply": 1
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nnn.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nnn.svg"
   },
   "NOS": {
     "symbol": "NOS",
@@ -536,8 +528,7 @@
         "totalSupply": 299625982
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nos.svg"
   },
   "NRVE": {
     "symbol": "NRVE",
@@ -551,8 +542,7 @@
         "totalSupply": 46928004
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nrve.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nrve.svg"
   },
   "NVL": {
     "symbol": "NVL",
@@ -579,8 +569,7 @@
         "totalSupply": 300000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nvm.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/nvm.svg"
   },
   "OBT": {
     "symbol": "OBT",
@@ -594,8 +583,7 @@
         "totalSupply": 68960125.99999999
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/obt.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/obt.png"
   },
   "ONT": {
     "symbol": "ONT",
@@ -609,8 +597,7 @@
         "totalSupply": 1000000000.0000135
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ont.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/ont.png"
   },
   "PEGCNY": {
     "symbol": "PEGCNY",
@@ -689,8 +676,7 @@
         "totalSupply": 600000003
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/qlc.svg"
   },
   "RCPT": {
     "symbol": "RCPT",
@@ -717,8 +703,7 @@
         "totalSupply": 60000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/rht.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/rht.png"
   },
   "RPX": {
     "symbol": "RPX",
@@ -732,8 +717,7 @@
         "totalSupply": 1358371250
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/rpx.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/rpx.svg"
   },
   "SCC": {
     "symbol": "SCC",
@@ -812,8 +796,7 @@
         "totalSupply": 9750509
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/sgt.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/sgt.svg"
   },
   "SOUL": {
     "symbol": "SOUL",
@@ -880,8 +863,7 @@
         "totalSupply": 9795844687
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/tky.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/tky.png"
   },
   "TMN": {
     "symbol": "TMN",
@@ -908,8 +890,7 @@
         "totalSupply": 1000000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/tnc.svg"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/svg/tnc.svg"
   },
   "BRDG": {
     "symbol": "BRDG",
@@ -936,8 +917,7 @@
         "totalSupply": 8e-7
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/utd.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/utd.png"
   },
   "WANDN": {
     "symbol": "WANDN",
@@ -1043,8 +1023,7 @@
         "totalSupply": 1000000000
       }
     },
-    "image":
-      "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/zpt.png"
+    "image": "https://rawgit.com/CityOfZion/neo-tokens/master/assets/png/zpt.png"
   },
   "SWTH V3": {
     "symbol": "SWTH",
@@ -1054,6 +1033,422 @@
       "1": {
         "name": "Switcheo V3",
         "hash": "3e09e602eeeb401a2fec8e8ea137d59aae54a139",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-SWTH-nNEO": {
+    "symbol": "FLP-SWTH-nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-SWTH-nNEO",
+        "hash": "fbe4a93d40084c3946deb020d42acb8716d70ba5",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-nNEO-pnUSDT": {
+    "symbol": "FLP-nNEO-pnUSDT",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-nNEO-pnUSDT",
+        "hash": "393ee57a2f55923bb2904dd75288c573f9c35a44",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-pONT-nNEO": {
+    "symbol": "FLP-pONT-nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-pONT-nNEO",
+        "hash": "fe24cfc4adda8f4d5877b62095abeed715b4aca7",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-pnWETH-nNEO": {
+    "symbol": "FLP-pnWETH-nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-pnWETH-nNEO",
+        "hash": "ec6aadeae97964af2e4e08532fdd8e7ffb39f19a",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-pnWBTC-nNEO": {
+    "symbol": "FLP-pnWBTC-nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-pnWBTC-nNEO",
+        "hash": "e1467246509828fafeab6496fe3e5342e8eb0229",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLM-nNEO": {
+    "symbol": "FLM-nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLM-nNEO",
+        "hash": "1fbc086f1d944d25ab00d1e40fb198aacbe7b418",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FlamingoSwapWhiteList": {
+    "symbol": "FlamingoSwapWhiteList",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FlamingoSwapWhiteList",
+        "hash": "c6cc40779386f48d2c21890691b720057aeb51b0",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FlamingoSwapRouter": {
+    "symbol": "FlamingoSwapRouter",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FlamingoSwapRouter",
+        "hash": "5ea2866235ab389fdd44017059eac95ca9e247aa",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FlamingoSwapFactory": {
+    "symbol": "FlamingoSwapFactory",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FlamingoSwapFactory",
+        "hash": "8698f27ad5ec043ea8dd9324cfadea8074a56b53",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FlamingoStaking": {
+    "symbol": "FlamingoStaking",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FlamingoStaking",
+        "hash": "4d92194e8d73980dadbadfc1993b2014c9fbd9da",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "OKB_Pool": {
+    "symbol": "OKB_Pool",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "OKB_Pool",
+        "hash": "cd322dee1c6937f1428daa875f8c889128cad51e",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "BUSD_Pool": {
+    "symbol": "BUSD_Pool",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "BUSD_Pool",
+        "hash": "10531229773ee1fc59d2f91a0d753f6cf52de653",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "BNB_Pool": {
+    "symbol": "BNB_Pool",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "BNB_Pool",
+        "hash": "bf8e6c65652644960cdb1ac53e7ef91da8d9636a",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "pnUNI_V2_ETH_WBTC": {
+    "symbol": "pnUNI_V2_ETH_WBTC",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "pnUNI_V2_ETH_WBTC",
+        "hash": "c534d65c85c074887f58ed1f3bad7dfd739a525e",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "pONT": {
+    "symbol": "pONT",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "pONT",
+        "hash": "c277117879af3197fbef92c71e95800aa3b89d9a",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "pnWETH": {
+    "symbol": "pnWETH",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "pnWETH",
+        "hash": "0df563008be710f3e0130208f8adc95ed7e5518d",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "pnWBTC": {
+    "symbol": "pnWBTC",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "pnWBTC",
+        "hash": "534dcac35b0dfadc7b2d716a7a73a7067c148b37",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "pnUSDT": {
+    "symbol": "pnUSDT",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "pnUSDT",
+        "hash": "282e3340d5a1cd6a461d5f558d91bc1dbc02a07b",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "nNEO": {
+    "symbol": "nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "nNEO",
+        "hash": "f46719e2d16bf50cddcef9d4bbfece901f73cbb6",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FlamingoVotingContract": {
+    "symbol": "FlamingoVotingContract",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FlamingoVotingContract",
+        "hash": "29215a35daab70879f5cb02a8944a980bad9f005",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-BRDG-nNEO": {
+    "symbol": "FLP-BRDG-nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-BRDG-nNEO",
+        "hash": "04c024709f0a379c047a0e518b0668c55016a40e",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "PMU Token": {
+    "symbol": "PMU Token",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "PMU Token",
+        "hash": "cf0bec047573d2b5f4b99a5f6655226e0fb5f7f9",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "Flamingo Oracle": {
+    "symbol": "Flamingo Oracle",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Flamingo Oracle",
+        "hash": "1c8749a602afff8ebe9c6f2b478ee2b0d92bd6ce",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "Flamingo Perp vAMM": {
+    "symbol": "Flamingo Perp vAMM",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Flamingo Perp vAMM",
+        "hash": "1e22d23e559c1db127d5b66db7d3e07b09be108f",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "Flamingo Perp": {
+    "symbol": "Flamingo Perp",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Flamingo Perp",
+        "hash": "883ec9d1950b21f340cc195562c27b2ac0c94dd3",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "Perp": {
+    "symbol": "Perp",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "Perp",
+        "hash": "207121f4252cadfd7bad9468de280381fdbb252f",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-pnWBTC-pnUSDT": {
+    "symbol": "FLP-pnWBTC-pnUSDT",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-pnWBTC-pnUSDT",
+        "hash": "79ddf488cd0dc14f03883acdd9cb0d6a72803918",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLP-fWETH-nNEO": {
+    "symbol": "FLP-fWETH-nNEO",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLP-fWETH-nNEO",
+        "hash": "c33043fa3961bd3cc81d36c31e3b08fcedd8930d",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "fWETH Mixer (pnWETH & pxWETH)": {
+    "symbol": "fWETH Mixer (pnWETH & pxWETH)",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "fWETH Mixer (pnWETH & pxWETH)",
+        "hash": "86a252711c8dbf1a30656cb501ab2cb657eeedab",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "fWETH": {
+    "symbol": "fWETH",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "fWETH",
+        "hash": "179a0db04a130dec6060cd9569d7ee7d7e8eccdc",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "pxWETH": {
+    "symbol": "pxWETH",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "pxWETH",
+        "hash": "b75022ea4846a10b31e3b14e1dec15672638ed0f",
+        "decimals": 8,
+        "totalSupply": 1000000000
+      }
+    }
+  },
+  "FLM Voting": {
+    "symbol": "FLM Voting",
+    "companyName": "Flamingo Finance",
+    "type": "NEP5",
+    "networks": {
+      "1": {
+        "name": "FLM Voting",
+        "hash": "64fface9a4216b0685a47d2f9bf0450a3de4fd25  ",
         "decimals": 8,
         "totalSupply": 1000000000
       }
